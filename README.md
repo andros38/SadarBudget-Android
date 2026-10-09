@@ -18,10 +18,10 @@ SadarBudget membantu pengguna mengelola catatan pemasukan dan pengeluaran secara
 ## Tampilan Aplikasi
 
 <p align="center">
-  <img src="docs/img (1).jpg" width="100">
-  <img src="docs/img (3).jpg" width="100">
-  <img src="docs/img (4).jpg" width="100">
-  <img src="docs/img (5).jpg" width="100">
+  <img src="docs/img (1).jpg" width="120">
+  <img src="docs/img (3).jpg" width="120">
+  <img src="docs/img (4).jpg" width="120">
+  <img src="docs/img (5).jpg" width="120">
 </p>
 
 ## Fitur
@@ -80,18 +80,16 @@ SadarBudget-Android/
 └── README.md
 ```
 
-Detail arsitektur: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md). Prosedur pengujian: [docs/TESTING.md](docs/TESTING.md).
+Detail arsitektur: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+Prosedur pengujian: [docs/TESTING.md](docs/TESTING.md).
 
 ## Privasi & keamanan
-
-- Aplikasi **tidak memerlukan izin INTERNET**. Data akun dan transaksi tidak dikirim ke backend.
-- Database disimpan di sandbox aplikasi, backup Android otomatis dinonaktifkan.
-- Kata sandi akun dan PIN disimpan dalam bentuk hash bersalt, bukan teks biasa.
-- PIN/biometrik merupakan **kunci antarmuka**, **bukan enkripsi database SQLite**. Jangan menganggapnya sebagai proteksi terhadap semua akses pada perangkat yang telah di-root/kompromi.
+- Aplikasi tidak memerlukan izin internet. Data akun disimpan di sandbox aplikasi.
+- Kata sandi akun dan PIN diamankan dalam bentuk hash.
+- PIN/biometrik untuk mencegah awal dibuka aplikasi tersebut.
 
 ## Kontribusi
-
-Kontribusi sangat terbuka, terutama terkait stabilitas, aksesibilitas, pengujian, dokumentasi, dan optimasi performa. Baca [CONTRIBUTING.md](CONTRIBUTING.md), ikuti template Issue dan Pull Request, serta sertakan hasil pengujian.
+Bagi yang ingin kontribusi atau mengembangkan aplikasi ini, silahkan baca [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Dokumentasi & riwayat perubahan
 
@@ -100,4 +98,4 @@ Kontribusi sangat terbuka, terutama terkait stabilitas, aksesibilitas, pengujian
 - [docs/GITHUB_PUBLISHING.md](docs/GITHUB_PUBLISHING.md) — panduan publikasi di GitHub.
 
 ## Lisensi
-Lisensi kode dalam repositori: **MIT** (lihat [LICENSE](LICENSE)). Nama pengembang: **Ahmad Asyhari**.
+Lisensi kode dalam repositori: **MIT** (lihat [LICENSE](LICENSE))
