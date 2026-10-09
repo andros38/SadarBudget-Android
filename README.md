@@ -17,6 +17,16 @@
 
 SadarBudget membantu pengguna mengelola catatan pemasukan dan pengeluaran secara lokal. Akun aplikasi, kategori, transaksi, laporan, dan data tersimpan di perangkat. Repository ini berisi **source Android native**, bukan backend PHP/MySQL atau data milik pengguna.
 
+## Tampilan Aplikasi
+
+<p align="center">
+  <img src="docs/img (1).jpg" width="220">
+  <img src="docs/img (2).jpg" width="220">
+  <img src="docs/img (3).jpg" width="220">
+  <img src="docs/img (4).jpg" width="220">
+  <img src="docs/img (5).jpg" width="220">
+</p>
+
 ## Fitur
 
 - Pencatatan pemasukan dan pengeluaran beserta kategori dan riwayat.
