@@ -21,7 +21,6 @@ SadarBudget membantu pengguna mengelola catatan pemasukan dan pengeluaran secara
 
 <p align="center">
   <img src="docs/img (1).jpg" width="220">
-  <img src="docs/img (2).jpg" width="220">
   <img src="docs/img (3).jpg" width="220">
   <img src="docs/img (4).jpg" width="220">
   <img src="docs/img (5).jpg" width="220">
